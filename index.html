@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+             <button class="playing">pause</button>
+             <div class="score">
+                 score:
+                 <span id = 'score-cont'>0</span>
+             </div>
+             <div class="speedwrapper">
+                    <div class="speed" id='speed'>speed</div>
+                    <div class="low speed-self">low speed</div>
+                    <div class="nomalspeed speed-self">constant speed</div>
+                    <div class="high speed-self">high speed</div>
+             </div>
+           
+        </div>
+        <div class="content">
+             <div class="game-cont" id='cont'></div>
+             <div class="startgame" id = 'startgame'>start</div>
+        </div>
+        <div class="losewrapper" id = 'lose'>
+                <div class="lose" >sorry , you are LOST!</div>
+                <div class="highscore">历史最高：
+                    <span id = 'highscore'>0</span>
+                </div>
+                <div class="overscore">分数:
+                    <span id = 'over-score-cont'></span>
+                </div>
+                <div class="back" id = 'back'>主界面</div>
+         </div>
+    </div>
+    <script src="./jquery.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
